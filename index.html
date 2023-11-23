@@ -1,0 +1,35 @@
+<head>
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+	/>
+
+	<style>
+		body {
+			margin: 0;
+			touch-action: none;
+		}
+		canvas {
+			width: 100%;
+			height: 100%;
+			touch-action: none;
+		}
+    .window {
+      position: absolute;
+      background: white;
+    }
+    #EksporterBtn {
+
+    }
+	</style>
+	<script src="main.js" type="module"></script>
+</head>
+<body>
+  <div class="window">
+    <button id="EksporterBtn">Eksportuj model</button>
+    <form id="ImporterForm">
+      <input id="ImportedFiles" accept=".mtl, .obj" type="file" multiple />
+      <button>Submit</button>
+    </form>
+  </div>
+</body>
